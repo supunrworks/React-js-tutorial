@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topic {
+  text-align: center;
+  background-color: chartreuse;
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
