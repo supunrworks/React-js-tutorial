@@ -6,6 +6,7 @@ import Greet from './UserAuth/Greet'
 import List from './List/List'
 import Objects from './Objects/Objects'
 import Button from './Button/Button'
+import Counter from './Counter/Counter'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <Greet userName="Supun" isLoggedIn ={false} /> */}
       {/* <List/> */}
       {/* <Objects topic="Products"/> */}
-      <Button/>
+      {/* <Button/> */}
+      <Counter/>
       {/* <Footer /> */}
     </div>
   )
