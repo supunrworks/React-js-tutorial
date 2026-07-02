@@ -7,6 +7,7 @@ import List from './List/List'
 import Objects from './Objects/Objects'
 import Button from './Button/Button'
 import Counter from './Counter/Counter'
+import Updater from './Updater/Updater'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <List/> */}
       {/* <Objects topic="Products"/> */}
       {/* <Button/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Updater/>
       {/* <Footer /> */}
     </div>
   )
