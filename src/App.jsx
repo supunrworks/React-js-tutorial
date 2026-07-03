@@ -9,6 +9,7 @@ import Button from './Button/Button'
 import Counter from './Counter/Counter'
 import Updater from './Updater/Updater'
 import Array from './Array/Array'
+import Count from './UseEffect/Count'
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       {/* <Button/> */}
       {/* <Counter/> */}
       {/* <Updater/> */}
-      <Array/>
+      {/* <Array/> */}
+      <Count/>
       {/* <Footer /> */}
     </div>
   )
