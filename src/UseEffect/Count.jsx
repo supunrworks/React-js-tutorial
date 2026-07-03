@@ -10,9 +10,9 @@ function Count() {
     const [color, setColor] = useState("red")
 
     useEffect(() => {
-        document.title = `Count: ${count} ${color}`
-    }, [count, color])
-
+        document.title = `Count: ${count} ${color}`   //this code run
+    }, [count, color])   // When this change/render
+ 
     const handleButton = () => {
         setCount(c => c + 1)
     }
