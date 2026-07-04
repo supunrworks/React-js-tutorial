@@ -15,3 +15,8 @@ a {
   border-radius: 10px;
   padding: 10px;
 }
+
+.box {
+  border: solid white;
+  padding: 4rem;
+}

@@ -6,10 +6,11 @@ import Greet from './UserAuth/Greet'
 import List from './List/List'
 import Objects from './Objects/Objects'
 import Button from './Button/Button'
-import Counter from './Counter/Counter'
 import Updater from './Updater/Updater'
 import Array from './Array/Array'
 import Count from './UseEffect/Count'
+import Counter from './UseState/Counter'
+import BoxA from './UseContext/BoxA'
 
 
 function App() {
@@ -21,10 +22,10 @@ function App() {
       {/* <List/> */}
       {/* <Objects topic="Products"/> */}
       {/* <Button/> */}
-      {/* <Counter/> */}
+      {/* <Counter /> */}
       {/* <Updater/> */}
       {/* <Array/> */}
-      <Count/>
+      <BoxA/>
       {/* <Footer /> */}
     </div>
   )
