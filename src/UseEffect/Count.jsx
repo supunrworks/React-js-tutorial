@@ -2,6 +2,14 @@
 // Some examples of side effects are: fetching data, directly updating the DOM, and timers.
 // useEffect runs on every render. That means that when the count changes, a render happens
 
+// Run when a value changes
+// const [count, setCount] = useState(0);
+
+// useEffect(() => {
+//   console.log("Count changed:", count);
+// }, [count]);
+
+
 import React, { useEffect, useState } from 'react'
 
 function Count() {

@@ -11,6 +11,8 @@ import Array from './Array/Array'
 import Count from './UseEffect/Count'
 import Counter from './UseState/Counter'
 import BoxA from './UseContext/BoxA'
+import Example from './UseRef/Example'
+import Ex02 from './UseRef/Ex02'
 
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
       {/* <Counter /> */}
       {/* <Updater/> */}
       {/* <Array/> */}
-      <BoxA/>
+      {/* <BoxA/> */}
+      {/* <Example/> */}
+      <Ex02/>
       {/* <Footer /> */}
     </div>
   )
