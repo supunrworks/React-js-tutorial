@@ -29,7 +29,7 @@ function App() {
       {/* <Array/> */}
       {/* <BoxA/> */}
       {/* <Example/> */}
-      <Ex02/>
+      {/* <Ex02/> */}
       {/* <Footer /> */}
     </div>
   )
