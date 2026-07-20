@@ -13,7 +13,7 @@ import Counter from './UseState/Counter'
 import BoxA from './UseContext/BoxA'
 import Example from './UseRef/Example'
 import Ex02 from './UseRef/Ex02'
-import Forms from './Input/Forms'
+import ControlledForms from './ControlledForms/ControlledForms'
 
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
       {/* <Objects topic="Products"/> */}
       {/* <Button/> */}
       {/* <Counter /> */}
-      <Forms/>
       {/* <Updater/> */}
+      <ControlledForms/>
       {/* <Array/> */}
       {/* <BoxA/> */}
       {/* <Example/> */}
