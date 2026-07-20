@@ -14,6 +14,7 @@ import BoxA from './UseContext/BoxA'
 import Example from './UseRef/Example'
 import Ex02 from './UseRef/Ex02'
 import ControlledForms from './ControlledForms/ControlledForms'
+import UncontrolledForms from './UncontrolledForms/UncontrolledForms'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <Button/> */}
       {/* <Counter /> */}
       {/* <Updater/> */}
-      <ControlledForms/>
+      {/* <ControlledForms/> */}
+      <UncontrolledForms/>
       {/* <Array/> */}
       {/* <BoxA/> */}
       {/* <Example/> */}
