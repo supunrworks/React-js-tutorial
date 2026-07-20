@@ -17,6 +17,7 @@ function Ex02() {
   const inputHandle = (e) => {
     setName(e.target.value)
   }
+  
   const color = () =>{
     inputRef.current.style.backgroundColor = "blue"   //Accesing DOM
   }
