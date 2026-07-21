@@ -15,6 +15,7 @@ import Example from './UseRef/Example'
 import Ex02 from './UseRef/Ex02'
 import ControlledForms from './ControlledForms/ControlledForms'
 import UncontrolledForms from './UncontrolledForms/UncontrolledForms'
+import RHFex from './RHF/RHFex'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Updater/> */}
       {/* <ControlledForms/> */}
-      <UncontrolledForms/>
+      {/* <UncontrolledForms/> */}
+      <RHFex/>
       {/* <Array/> */}
       {/* <BoxA/> */}
       {/* <Example/> */}
